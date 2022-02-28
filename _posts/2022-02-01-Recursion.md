@@ -9,7 +9,7 @@ categories: jekyll update
 
 
 * Fabonacci 數列: C語言遞迴實作
-```C
+{% highlight C %}
 int Fab(int n){
     if (n == 0 || n == 1) return 1;
     else return Fab(n-1) + Fab(n-2)
@@ -18,5 +18,6 @@ int Fab(int n){
 int main(void){
     printf("%d",Fab(10));
 }
-```
+{% endhighlight C %}
+
  
